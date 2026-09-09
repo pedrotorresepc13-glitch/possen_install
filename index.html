@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b6cf2">
+  <meta name="description" content="Participe do teste fechado e instale o aplicativo POSSEBON pela Google Play.">
+  <title>Baixar POSSEBON</title>
+  <style>
+    :root{
+      --bg:#f4f7fb; --card:#fff; --text:#152238; --muted:#64748b;
+      --primary:#0b6cf2; --primary-dark:#0859c9; --success:#148847;
+      --border:#e5eaf1; --shadow:0 18px 50px rgba(18,45,82,.12);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; min-height:100vh;
+      font-family:Arial,Helvetica,sans-serif;
+      background:linear-gradient(180deg,#edf5ff 0,#f7f9fc 36%,#f4f7fb 100%);
+      color:var(--text);
+    }
+    .page{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px 14px}
+    .card{
+      width:min(100%,560px); background:var(--card); border:1px solid var(--border);
+      border-radius:22px; box-shadow:var(--shadow); overflow:hidden;
+    }
+    .hero{padding:32px 26px 22px;text-align:center;background:linear-gradient(180deg,#eef6ff,#fff)}
+    .brand{display:inline-flex;align-items:center;gap:12px;margin-bottom:18px}
+    .mark{
+      width:46px;height:46px;border-radius:14px;display:grid;place-items:center;
+      color:#fff;background:linear-gradient(135deg,#0b6cf2,#1d86ff);
+      font-weight:900;font-size:22px
+    }
+    .brand-name{font-size:25px;font-weight:800}
+    h1{margin:0;font-size:34px;line-height:1.08}
+    .subtitle{margin:13px auto 0;max-width:430px;color:var(--muted);font-size:16px;line-height:1.5}
+    .content{padding:8px 22px 28px}
+    .notice{margin:7px 0 20px;padding:14px 15px;border:1px solid #d9e8ff;background:#f5f9ff;border-radius:14px;color:#31425f;font-size:14px;line-height:1.45}
+    .steps{display:flex;flex-direction:column;gap:14px}
+    .step{border:1px solid var(--border);border-radius:18px;padding:17px}
+    .step-head{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px}
+    .number{
+      width:34px;height:34px;flex:0 0 34px;border-radius:50%;display:grid;place-items:center;
+      background:#eaf2ff;color:var(--primary);font-weight:800
+    }
+    .step-title{font-size:17px;font-weight:800;margin:1px 0 4px}
+    .step-text{font-size:14px;line-height:1.4;color:var(--muted)}
+    .btn{
+      min-height:52px;width:100%;padding:13px 16px;border:0;border-radius:14px;
+      display:flex;align-items:center;justify-content:center;text-align:center;
+      color:#fff;background:var(--primary);font-weight:800;font-size:15px;
+      text-decoration:none
+    }
+    .btn.dark{background:#111827}.btn.green{background:var(--success)}
+    .footer{text-align:center;color:#7a8799;font-size:12px;line-height:1.5;padding:20px 8px 2px}
+    @media(max-width:520px){
+      .page{padding:0;align-items:flex-start}.card{min-height:100vh;border-radius:0;border-left:0;border-right:0}
+      .hero{padding:26px 20px 20px}.content{padding:6px 15px 24px}h1{font-size:30px}
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <header class="hero">
+        <div class="brand"><div class="mark">P</div><div class="brand-name">POSSEBON</div></div>
+        <h1>Instale o aplicativo POSSEBON</h1>
+        <p class="subtitle">Para acessar o aplicativo em teste, conclua os três passos abaixo usando a mesma conta Google.</p>
+      </header>
+
+      <div class="content">
+        <div class="notice"><strong>Importante:</strong> use a mesma conta Google no Grupo, na participação do teste e na Play Store do celular.</div>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step-head">
+              <div class="number">1</div>
+              <div><div class="step-title">Entre no grupo de testadores</div><div class="step-text">Participe do grupo oficial usado para liberar o teste fechado.</div></div>
+            </div>
+            <a class="btn" href="https://groups.google.com/g/teste-app-possebon">Participar do grupo</a>
+          </article>
+
+          <article class="step">
+            <div class="step-head">
+              <div class="number">2</div>
+              <div><div class="step-title">Aceite participar do teste</div><div class="step-text">Depois de entrar no grupo, confirme sua participação no Google Play.</div></div>
+            </div>
+            <a class="btn dark" href="https://play.google.com/apps/testing/br.com.possebon.app">Participar do teste</a>
+          </article>
+
+          <article class="step">
+            <div class="step-head">
+              <div class="number">3</div>
+              <div><div class="step-title">Instale o aplicativo</div><div class="step-text">Após aceitar o teste, abra a página oficial do POSSEBON na Play Store.</div></div>
+            </div>
+            <a class="btn green" href="https://play.google.com/store/apps/details?id=br.com.possebon.app">Baixar na Google Play</a>
+          </article>
+        </div>
+
+        <div class="footer">
+          POSSEBON • Android<br>
+          Se a instalação não aparecer imediatamente, aguarde alguns minutos após aceitar o teste e tente novamente.
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
